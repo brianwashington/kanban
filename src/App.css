@@ -1,0 +1,86 @@
+.app-container {
+  display: flex;
+  width: 100%;
+  margin: 250px 0;
+}
+
+.column {
+  flex: 1;
+  margin-right: 25px;
+}
+
+.column ul {
+  padding-left: 0;
+}
+
+.column:first-child {
+  padding-left: 25px;
+}
+
+.column h3 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card-container {
+  min-height: 200px;
+}
+
+.column:first-child h3 {
+  background-color: #8e6e95;
+}
+
+.column:nth-child(2) h3 {
+  background-color: #39a59c;
+}
+
+.column:nth-child(3) h3 {
+  background-color: #344759;
+}
+
+.column:nth-child(4) h3 {
+  background-color: #e8741e;
+}
+
+.card {
+  width: 100%;
+  padding: 15px 10px;
+  background: white;
+  margin-bottom: 12px;
+  box-shadow: 0 0 7px 0px gray;
+  border-radius: 5px;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.left-arrow a,
+.right-arrow a {
+  text-decoration: none;
+  color: gray;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  background: lightgray;
+  transition: all 0.2s;
+}
+
+.add-card {
+  height: 50px;
+  width: 100%;
+  border: 1px dashed red;
+  margin-top: 12px;
+}
